@@ -1,0 +1,2 @@
+((select|delete).*?from|(drop|alter).*?table|update.*?set|and.*?\d*?=\d*?)      ##过滤敏感语句
+['|+#\<>\()*%]   ##过滤特殊字符规则
